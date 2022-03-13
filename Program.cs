@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using AdventOfCodeDayOne;
+﻿using AdventOfCodeDayOne;
 
 Console.WriteLine("\n Lets work on AdventOfCode day 1.");
 
