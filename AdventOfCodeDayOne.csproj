@@ -8,11 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="bin\Debug\net6.0\input.txt" />
+    <Folder Include="bin\Debug\net6.0\ref\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="bin\Debug\net6.0\ref\" />
+    <None Update="input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
